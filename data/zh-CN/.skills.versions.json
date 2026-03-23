@@ -1,0 +1,782 @@
+[
+  {
+    "id": "v1773995376965",
+    "timestamp": "2026-03-20T08:29:36.965Z",
+    "data": {
+      "technical": [
+        {
+          "name": "JavaScript",
+          "level": 5
+        },
+        {
+          "name": "TypeScript",
+          "level": 5
+        },
+        {
+          "name": "Vue.js",
+          "level": 5
+        },
+        {
+          "name": "React",
+          "level": 4
+        },
+        {
+          "name": "Node.js",
+          "level": 4
+        },
+        {
+          "name": "DevOps",
+          "level": "5"
+        },
+        {
+          "name": "SRE",
+          "level": "3"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Git",
+          "level": 5
+        },
+        {
+          "name": "Webpack",
+          "level": 4
+        },
+        {
+          "name": "Docker",
+          "level": 3
+        },
+        {
+          "name": "Linux",
+          "level": 4
+        }
+      ],
+      "management": [
+        {
+          "name": "团队管理",
+          "level": 4
+        },
+        {
+          "name": "项目管理",
+          "level": 4
+        },
+        {
+          "name": "技术决策",
+          "level": 5
+        }
+      ],
+      "language": [
+        {
+          "language": "中文",
+          "level": "母语"
+        },
+        {
+          "language": "英语",
+          "level": "专业八级"
+        }
+      ],
+      "soft": [
+        "沟通能力",
+        "团队协作",
+        "问题解决",
+        "持续学习"
+      ]
+    }
+  },
+  {
+    "id": "v1773995408389",
+    "timestamp": "2026-03-20T08:30:08.389Z",
+    "data": {
+      "technical": [
+        {
+          "name": "JavaScript",
+          "level": 5
+        },
+        {
+          "name": "TypeScript",
+          "level": 5
+        },
+        {
+          "name": "Vue.js",
+          "level": 5
+        },
+        {
+          "name": "React",
+          "level": 4
+        },
+        {
+          "name": "Node.js",
+          "level": 4
+        },
+        {
+          "name": "DevOps",
+          "level": "5"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Git",
+          "level": 5
+        },
+        {
+          "name": "Webpack",
+          "level": 4
+        },
+        {
+          "name": "Docker",
+          "level": 3
+        },
+        {
+          "name": "Linux",
+          "level": 4
+        }
+      ],
+      "management": [
+        {
+          "name": "团队管理",
+          "level": 4
+        },
+        {
+          "name": "项目管理",
+          "level": 4
+        },
+        {
+          "name": "技术决策",
+          "level": 5
+        }
+      ],
+      "language": [
+        {
+          "language": "中文",
+          "level": "母语"
+        },
+        {
+          "language": "英语",
+          "level": "专业八级"
+        }
+      ],
+      "soft": [
+        "沟通能力",
+        "团队协作",
+        "问题解决",
+        "持续学习"
+      ]
+    }
+  },
+  {
+    "id": "v1773995417435",
+    "timestamp": "2026-03-20T08:30:17.435Z",
+    "data": {
+      "technical": [
+        {
+          "name": "JavaScript",
+          "level": 5
+        },
+        {
+          "name": "TypeScript",
+          "level": 5
+        },
+        {
+          "name": "Vue.js",
+          "level": 5
+        },
+        {
+          "name": "React",
+          "level": 4
+        },
+        {
+          "name": "Node.js",
+          "level": 4
+        },
+        {
+          "name": "DevOps",
+          "level": "5"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Git",
+          "level": 5
+        },
+        {
+          "name": "Webpack",
+          "level": 4
+        },
+        {
+          "name": "Docker",
+          "level": 3
+        },
+        {
+          "name": "Linux",
+          "level": 4
+        }
+      ],
+      "management": [
+        {
+          "name": "团队管理",
+          "level": 4
+        },
+        {
+          "name": "项目管理",
+          "level": 4
+        },
+        {
+          "name": "技术决策",
+          "level": 5
+        }
+      ],
+      "language": [
+        {
+          "language": "中文",
+          "level": "母语"
+        },
+        {
+          "language": "英语",
+          "level": "专业八级"
+        }
+      ],
+      "soft": [
+        "沟通能力",
+        "团队协作",
+        "问题解决",
+        "持续学习"
+      ]
+    }
+  },
+  {
+    "id": "v1773995427898",
+    "timestamp": "2026-03-20T08:30:27.898Z",
+    "data": {
+      "technical": [
+        {
+          "name": "JavaScript",
+          "level": 5
+        },
+        {
+          "name": "TypeScript",
+          "level": 5
+        },
+        {
+          "name": "Vue.js",
+          "level": 5
+        },
+        {
+          "name": "React",
+          "level": 4
+        },
+        {
+          "name": "Node.js",
+          "level": 4
+        },
+        {
+          "name": "DevOps",
+          "level": "5"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Git",
+          "level": 5
+        },
+        {
+          "name": "Webpack",
+          "level": 4
+        },
+        {
+          "name": "Docker",
+          "level": 3
+        },
+        {
+          "name": "Linux",
+          "level": 4
+        }
+      ],
+      "management": [
+        {
+          "name": "团队管理",
+          "level": 4
+        },
+        {
+          "name": "项目管理",
+          "level": 4
+        },
+        {
+          "name": "技术决策",
+          "level": 5
+        }
+      ],
+      "language": [
+        {
+          "language": "中文",
+          "level": "母语"
+        },
+        {
+          "language": "英语",
+          "level": "专业八级"
+        }
+      ],
+      "soft": [
+        "沟通能力",
+        "团队协作",
+        "问题解决",
+        "持续学习"
+      ]
+    }
+  },
+  {
+    "id": "v1773995434586",
+    "timestamp": "2026-03-20T08:30:34.586Z",
+    "data": {
+      "technical": [
+        {
+          "name": "JavaScript",
+          "level": 5
+        },
+        {
+          "name": "TypeScript",
+          "level": 5
+        },
+        {
+          "name": "Vue.js",
+          "level": 5
+        },
+        {
+          "name": "React",
+          "level": 4
+        },
+        {
+          "name": "Node.js",
+          "level": 4
+        }
+      ],
+      "tools": [
+        {
+          "name": "Git",
+          "level": 5
+        },
+        {
+          "name": "Webpack",
+          "level": 4
+        },
+        {
+          "name": "Docker",
+          "level": 3
+        },
+        {
+          "name": "Linux",
+          "level": 4
+        }
+      ],
+      "management": [
+        {
+          "name": "团队管理",
+          "level": 4
+        },
+        {
+          "name": "项目管理",
+          "level": 4
+        },
+        {
+          "name": "技术决策",
+          "level": 5
+        }
+      ],
+      "language": [
+        {
+          "language": "中文",
+          "level": "母语"
+        },
+        {
+          "language": "英语",
+          "level": "专业八级"
+        }
+      ],
+      "soft": [
+        "沟通能力",
+        "团队协作",
+        "问题解决",
+        "持续学习"
+      ]
+    }
+  },
+  {
+    "id": "v1773995434603",
+    "timestamp": "2026-03-20T08:30:34.603Z",
+    "data": {
+      "technical": [
+        {
+          "name": "JavaScript",
+          "level": 5
+        },
+        {
+          "name": "TypeScript",
+          "level": 5
+        },
+        {
+          "name": "Vue.js",
+          "level": 5
+        },
+        {
+          "name": "React",
+          "level": 4
+        },
+        {
+          "name": "Node.js",
+          "level": 4
+        }
+      ],
+      "tools": [
+        {
+          "name": "Git",
+          "level": 5
+        },
+        {
+          "name": "Webpack",
+          "level": 4
+        },
+        {
+          "name": "Docker",
+          "level": 3
+        },
+        {
+          "name": "Linux",
+          "level": 4
+        }
+      ],
+      "management": [
+        {
+          "name": "团队管理",
+          "level": 4
+        },
+        {
+          "name": "项目管理",
+          "level": 4
+        },
+        {
+          "name": "技术决策",
+          "level": 5
+        }
+      ],
+      "language": [
+        {
+          "language": "中文",
+          "level": "母语"
+        },
+        {
+          "language": "英语",
+          "level": "专业八级"
+        }
+      ],
+      "soft": [
+        "沟通能力",
+        "团队协作",
+        "问题解决",
+        "持续学习"
+      ]
+    }
+  },
+  {
+    "id": "v1773995437828",
+    "timestamp": "2026-03-20T08:30:37.828Z",
+    "data": {
+      "technical": [
+        {
+          "name": "JavaScript",
+          "level": 5
+        },
+        {
+          "name": "TypeScript",
+          "level": 5
+        },
+        {
+          "name": "Vue.js",
+          "level": 5
+        },
+        {
+          "name": "React",
+          "level": 4
+        },
+        {
+          "name": "Node.js",
+          "level": 4
+        }
+      ],
+      "tools": [
+        {
+          "name": "Git",
+          "level": 5
+        },
+        {
+          "name": "Webpack",
+          "level": 4
+        },
+        {
+          "name": "Docker",
+          "level": 3
+        },
+        {
+          "name": "Linux",
+          "level": 4
+        }
+      ],
+      "management": [
+        {
+          "name": "团队管理",
+          "level": 4
+        },
+        {
+          "name": "项目管理",
+          "level": 4
+        },
+        {
+          "name": "技术决策",
+          "level": 5
+        }
+      ],
+      "language": [
+        {
+          "language": "中文",
+          "level": "母语"
+        },
+        {
+          "language": "英语",
+          "level": "专业八级"
+        }
+      ],
+      "soft": [
+        "沟通能力",
+        "团队协作",
+        "问题解决",
+        "持续学习"
+      ]
+    }
+  },
+  {
+    "id": "v1773995437846",
+    "timestamp": "2026-03-20T08:30:37.846Z",
+    "data": {
+      "technical": [
+        {
+          "name": "JavaScript",
+          "level": 5
+        },
+        {
+          "name": "TypeScript",
+          "level": 5
+        },
+        {
+          "name": "Vue.js",
+          "level": 5
+        },
+        {
+          "name": "React",
+          "level": 4
+        },
+        {
+          "name": "Node.js",
+          "level": 4
+        }
+      ],
+      "tools": [
+        {
+          "name": "Git",
+          "level": 5
+        },
+        {
+          "name": "Webpack",
+          "level": 4
+        },
+        {
+          "name": "Docker",
+          "level": 3
+        },
+        {
+          "name": "Linux",
+          "level": 4
+        }
+      ],
+      "management": [
+        {
+          "name": "团队管理",
+          "level": 4
+        },
+        {
+          "name": "项目管理",
+          "level": 4
+        },
+        {
+          "name": "技术决策",
+          "level": 5
+        }
+      ],
+      "language": [
+        {
+          "language": "中文",
+          "level": "母语"
+        },
+        {
+          "language": "英语",
+          "level": "专业八级"
+        }
+      ],
+      "soft": [
+        "沟通能力",
+        "团队协作",
+        "问题解决",
+        "持续学习"
+      ]
+    }
+  },
+  {
+    "id": "v1773996649401",
+    "timestamp": "2026-03-20T08:50:49.401Z",
+    "data": {
+      "technical": [
+        {
+          "name": "JavaScript",
+          "level": 5
+        },
+        {
+          "name": "TypeScript",
+          "level": 5
+        },
+        {
+          "name": "Vue.js",
+          "level": 5
+        },
+        {
+          "name": "React",
+          "level": 4
+        },
+        {
+          "name": "Node.js",
+          "level": 4
+        }
+      ],
+      "tools": [
+        {
+          "name": "Git",
+          "level": 5
+        },
+        {
+          "name": "Webpack",
+          "level": 4
+        },
+        {
+          "name": "Docker",
+          "level": 3
+        },
+        {
+          "name": "Linux",
+          "level": 4
+        }
+      ],
+      "management": [
+        {
+          "name": "团队管理",
+          "level": 4
+        },
+        {
+          "name": "项目管理",
+          "level": 4
+        },
+        {
+          "name": "技术决策",
+          "level": 5
+        }
+      ],
+      "language": [
+        {
+          "language": "中文",
+          "level": "母语"
+        },
+        {
+          "language": "英语",
+          "level": "专业八级"
+        }
+      ],
+      "soft": [
+        "沟通能力",
+        "团队协作",
+        "问题解决",
+        "持续学习"
+      ]
+    }
+  },
+  {
+    "id": "v1773996651544",
+    "timestamp": "2026-03-20T08:50:51.544Z",
+    "data": {
+      "technical": [
+        {
+          "name": "JavaScript",
+          "level": 5
+        },
+        {
+          "name": "TypeScript",
+          "level": 5
+        },
+        {
+          "name": "Vue.js",
+          "level": 5
+        },
+        {
+          "name": "React",
+          "level": 4
+        },
+        {
+          "name": "Node.js",
+          "level": 4
+        }
+      ],
+      "tools": [
+        {
+          "name": "Git",
+          "level": 5
+        },
+        {
+          "name": "Webpack",
+          "level": 4
+        },
+        {
+          "name": "Docker",
+          "level": 3
+        },
+        {
+          "name": "Linux",
+          "level": 4
+        }
+      ],
+      "management": [
+        {
+          "name": "团队管理",
+          "level": 4
+        },
+        {
+          "name": "项目管理",
+          "level": 4
+        },
+        {
+          "name": "技术决策",
+          "level": 5
+        }
+      ],
+      "language": [
+        {
+          "language": "中文",
+          "level": "母语"
+        },
+        {
+          "language": "英语",
+          "level": "专业八级"
+        }
+      ],
+      "soft": [
+        "沟通能力",
+        "团队协作",
+        "问题解决",
+        "持续学习"
+      ]
+    }
+  }
+]

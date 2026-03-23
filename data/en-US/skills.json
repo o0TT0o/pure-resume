@@ -1,0 +1,30 @@
+{
+  "technical": [
+    {"name": "JavaScript", "level": 5},
+    {"name": "TypeScript", "level": 5},
+    {"name": "Vue.js", "level": 5},
+    {"name": "React", "level": 4},
+    {"name": "Node.js", "level": 4}
+  ],
+  "tools": [
+    {"name": "Git", "level": 5},
+    {"name": "Webpack", "level": 4},
+    {"name": "Docker", "level": 3},
+    {"name": "Linux", "level": 4}
+  ],
+  "management": [
+    {"name": "Team Management", "level": 4},
+    {"name": "Project Management", "level": 4},
+    {"name": "Technical Decision Making", "level": 5}
+  ],
+  "language": [
+    {"language": "Chinese", "level": "Native"},
+    {"language": "English", "level": "Professional"}
+  ],
+  "soft": [
+    "Communication",
+    "Team Collaboration",
+    "Problem Solving",
+    "Continuous Learning"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "lastModified": "2026-03-19T00:00:00Z",
+    "schema": "modules",
+    "description": "模块配置文件"
+  },
+  "personal": {
+    "id": "personal",
+    "i18nKey": "module.personal",
+    "required": true,
+    "file": "personal.json",
+    "type": "object"
+  },
+  "experience": {
+    "id": "experience",
+    "i18nKey": "module.experience",
+    "required": true,
+    "file": "experience.json",
+    "type": "array"
+  },
+  "projects": {
+    "id": "projects",
+    "i18nKey": "module.projects",
+    "required": false,
+    "file": "projects.json",
+    "type": "array"
+  },
+  "education": {
+    "id": "education",
+    "i18nKey": "module.education",
+    "required": false,
+    "file": "education.json",
+    "type": "array"
+  },
+  "certificates": {
+    "id": "certificates",
+    "i18nKey": "module.certificates",
+    "required": false,
+    "file": "certificates.json",
+    "type": "array"
+  },
+  "skills": {
+    "id": "skills",
+    "i18nKey": "module.skills",
+    "required": true,
+    "file": "skills.json",
+    "type": "object"
+  }
+}

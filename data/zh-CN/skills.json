@@ -1,0 +1,73 @@
+{
+  "technical": [
+    {
+      "name": "JavaScript",
+      "level": 5
+    },
+    {
+      "name": "TypeScript",
+      "level": 5
+    },
+    {
+      "name": "Vue.js",
+      "level": 5
+    },
+    {
+      "name": "React",
+      "level": 4
+    },
+    {
+      "name": "Node.js",
+      "level": 4
+    }
+  ],
+  "tools": [
+    {
+      "name": "Git",
+      "level": 5
+    },
+    {
+      "name": "Webpack",
+      "level": 4
+    },
+    {
+      "name": "Docker",
+      "level": 3
+    },
+    {
+      "name": "Linux",
+      "level": 4
+    }
+  ],
+  "management": [
+    {
+      "name": "团队管理",
+      "level": 4
+    },
+    {
+      "name": "项目管理",
+      "level": 4
+    },
+    {
+      "name": "技术决策",
+      "level": 5
+    }
+  ],
+  "language": [
+    {
+      "language": "中文",
+      "level": "母语"
+    },
+    {
+      "language": "英语",
+      "level": "专业八级"
+    }
+  ],
+  "soft": [
+    "沟通能力",
+    "团队协作",
+    "问题解决",
+    "持续学习",
+    "吃饭睡觉打豆豆"
+  ]
+}

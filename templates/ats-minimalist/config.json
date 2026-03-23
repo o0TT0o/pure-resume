@@ -1,0 +1,54 @@
+{
+  "id": "ats-minimalist",
+  "name": "ats-minimalist",
+  "description": "Minimalist resume template optimized for ATS systems scanning",
+  "category": "minimalist",
+  "features": [
+    "ats-optimized",
+    "clean-layout",
+    "minimal-design"
+  ],
+  "supports": {
+    "export-pdf": true,
+    "export-word": true,
+    "multi-language": true,
+    "ats-optimized": true
+  },
+  "sections": {
+    "personal": {
+      "position": "top",
+      "required": true
+    },
+    "experience": {
+      "position": "middle",
+      "required": true
+    },
+    "education": {
+      "position": "middle",
+      "required": false
+    },
+    "skills": {
+      "position": "middle",
+      "required": true
+    },
+    "projects": {
+      "position": "bottom",
+      "required": false
+    },
+    "certificates": {
+      "position": "bottom",
+      "required": false
+    }
+  },
+  "style": {
+    "layout": "single-column",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#333333"
+    },
+    "fonts": {
+      "heading": "Arial, sans-serif",
+      "body": "Arial, sans-serif"
+    }
+  }
+}

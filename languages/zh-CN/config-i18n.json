@@ -1,0 +1,89 @@
+{
+  "module": {
+    "personal": "个人信息",
+    "experience": "工作经历",
+    "projects": "项目经验",
+    "education": "教育背景",
+    "certificates": "证书信息",
+    "skills": "技能清单"
+  },
+  "skills": {
+    "technical": "技术技能",
+    "language": "语言能力",
+    "tools": "工具软件",
+    "management": "管理能力",
+    "soft": "软技能"
+  },
+  "contact": {
+    "phone": {
+      "name": "联系电话",
+      "placeholder": "138-xxxx-xxxx"
+    },
+    "email": {
+      "name": "邮箱",
+      "placeholder": "example@mail.com"
+    },
+    "location": {
+      "name": "所在地",
+      "placeholder": "北京"
+    },
+    "website": {
+      "name": "个人网站",
+      "placeholder": "https://yourwebsite.com"
+    },
+    "github": {
+      "name": "GitHub",
+      "placeholder": "https://github.com/username"
+    },
+    "linkedin": {
+      "name": "LinkedIn",
+      "placeholder": "https://linkedin.com/in/username"
+    }
+  },
+  "list": {
+    "experience": {
+      "name": "工作经历",
+      "field": {
+        "company": "公司名称",
+        "position": "职位",
+        "startDate": "开始日期",
+        "endDate": "结束日期",
+        "description": "工作描述",
+        "achievements": "工作成就"
+      }
+    },
+    "projects": {
+      "name": "项目经验",
+      "field": {
+        "name": "项目名称",
+        "role": "担任角色",
+        "startDate": "开始日期",
+        "endDate": "结束日期",
+        "description": "项目描述",
+        "technologies": "技术栈",
+        "achievements": "项目成就"
+      }
+    },
+    "education": {
+      "name": "教育背景",
+      "field": {
+        "school": "学校名称",
+        "degree": "学位",
+        "major": "专业",
+        "startDate": "开始日期",
+        "endDate": "结束日期",
+        "description": "补充信息"
+      }
+    },
+    "certificates": {
+      "name": "证书信息",
+      "field": {
+        "name": "证书名称",
+        "issuer": "颁发机构",
+        "issueDate": "获得日期",
+        "expiryDate": "有效期",
+        "certificateUrl": "证书链接"
+      }
+    }
+  }
+}

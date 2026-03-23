@@ -1,0 +1,112 @@
+{
+  "header": {
+    "title": "简历",
+    "edit": "编辑",
+    "export": "导出",
+    "import": "导入",
+    "preview": "预览",
+    "enterEditMode": "进入编辑",
+    "exitEditMode": "退出编辑",
+    "adminEditMode": "🔒 管理员编辑模式",
+    "exportPDF": "导出PDF",
+    "exportWord": "导出Word",
+    "upload": "上传"
+  },
+  "modal": {
+    "import": {
+      "title": "导入简历",
+      "fromPDF": "从PDF导入",
+      "fromPDFDesc": "支持解析PDF文件提取简历内容",
+      "fromWord": "从Word导入",
+      "fromWordDesc": "支持解析Word文件提取简历内容",
+      "importing": "正在导入文件...",
+      "result": "导入结果",
+      "success": "✓ 导入成功",
+      "parseModules": "解析模块",
+      "warning": "⚠️ 请检查导入的内容是否正确，如有需要请手动调整"
+    },
+    "upload": {
+      "title": "上传图片",
+      "uploadAvatar": "上传头像",
+      "uploadAvatarDesc": "上传个人头像图片 (支持 JPEG, PNG, GIF, WebP)",
+      "uploadProject": "上传项目图片",
+      "uploadProjectDesc": "上传项目展示图片 (支持 JPEG, PNG, GIF, WebP)",
+      "uploading": "正在上传图片...",
+      "success": "上传成功",
+      "imageURL": "图片URL",
+      "copyURL": "复制URL",
+      "urlCopied": "URL已复制到剪贴板"
+    },
+    "version": {
+      "title": "版本对比",
+      "noChanges": "没有检测到任何修改",
+      "confirm": "确认保存"
+    },
+    "unsavedChanges": {
+      "language": "您有未保存的更改，切换语言将丢失这些更改。是否继续？",
+      "template": "您有未保存的更改，切换模板可能需要重新加载页面。是否继续？",
+      "exit": "您有未保存的更改，退出编辑模式将丢失这些更改。是否继续？"
+    },
+    "close": "✕"
+  },
+  "validation": {
+    "fileTooLarge": "文件大小不能超过5MB",
+    "invalidFileType": "只支持上传图片文件 (JPEG, PNG, GIF, WebP)",
+    "importFailed": "导入失败",
+    "uploadFailed": "上传失败"
+  },
+  "export": {
+    "generatingPDF": "正在生成PDF...",
+    "generatingWord": "正在生成Word文档...",
+    "failed": "导出失败"
+  },
+  "preview": {
+    "noData": "暂无数据",
+    "clickToAdd": "点击下方按钮添加",
+    "unnamed": "未命名"
+  },
+  "personal": {
+    "section": "个人信息"
+  },
+  "experience": {
+    "section": "工作经历",
+    "current": "至今",
+    "addExperience": "添加工作经历"
+  },
+  "projects": {
+    "section": "项目经验",
+    "addProject": "添加项目"
+  },
+  "education": {
+    "section": "教育背景",
+    "addEducation": "添加教育经历"
+  },
+  "certificates": {
+    "section": "证书信息",
+    "addCertificate": "添加证书"
+  },
+  "skills": {
+    "section": "技能清单",
+    "technical": "技术技能",
+    "language": "语言能力",
+    "soft": "软技能",
+    "addSkill": "添加技能",
+    "add": "添加"
+  },
+  "common": {
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑",
+    "confirm": "确认",
+    "loading": "加载中...",
+    "success": "操作成功",
+    "error": "操作失败",
+    "upload": "上传",
+    "download": "下载",
+    "reset": "重置",
+    "confirmText": "确认",
+    "ok": "确定",
+    "item": "项目"
+  }
+}

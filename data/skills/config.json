@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "lastModified": "2026-03-19T00:00:00Z",
+    "schema": "skills",
+    "description": "技能分类配置文件"
+  },
+  "categories": [
+    {
+      "id": "technical",
+      "i18nKey": "skills.technical",
+      "type": "rated",
+      "ratingScale": 5,
+      "icon": "code"
+    },
+    {
+      "id": "language",
+      "i18nKey": "skills.language",
+      "type": "text",
+      "icon": "language"
+    },
+    {
+      "id": "tools",
+      "i18nKey": "skills.tools",
+      "type": "rated",
+      "ratingScale": 5,
+      "icon": "build"
+    },
+    {
+      "id": "management",
+      "i18nKey": "skills.management",
+      "type": "rated",
+      "ratingScale": 5,
+      "icon": "people"
+    },
+    {
+      "id": "soft",
+      "i18nKey": "skills.soft",
+      "type": "list",
+      "icon": "psychology"
+    }
+  ]
+}

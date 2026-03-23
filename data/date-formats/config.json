@@ -1,0 +1,29 @@
+{
+  "formats": {
+    "zh-CN": {
+      "date": "YYYY年MM月",
+      "dateRange": "YYYY年MM月 - YYYY年MM月",
+      "current": "至今"
+    },
+    "en-US": {
+      "date": "MMM YYYY",
+      "dateRange": "MMM YYYY - MMM YYYY",
+      "current": "Present"
+    },
+    "de-DE": {
+      "date": "MM/YYYY",
+      "dateRange": "MM/YYYY - MM/YYYY",
+      "current": "Heute"
+    },
+    "fr-FR": {
+      "date": "MM/YYYY",
+      "dateRange": "MM/YYYY - MM/YYYY",
+      "current": "Présent"
+    },
+    "ja-JP": {
+      "date": "YYYY年MM月",
+      "dateRange": "YYYY年MM月 - YYYY年MM月",
+      "current": "現在"
+    }
+  }
+}

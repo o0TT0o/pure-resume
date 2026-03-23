@@ -1,0 +1,143 @@
+<div class="max-w-4xl mx-auto bg-white p-8 font-sans text-black">
+  <!-- Header -->
+  <header class="border-b-2 border-black mb-6 pb-4">
+    <h1 class="text-3xl font-bold mb-2 text-black">{{personal.name}}</h1>
+    <p class="text-lg mb-3 text-gray-700">{{personal.title}}</p>
+    <p class="text-sm text-gray-600">
+      {{#if personal.email}}{{personal.email}}{{/if}}
+      {{#if personal.phone}} · {{personal.phone}}{{/if}}
+      {{#if personal.location}} · {{personal.location}}{{/if}}
+    </p>
+  </header>
+
+  <!-- Summary -->
+  {{#if personal.summary}}
+  <section class="mb-6">
+    <h2 class="text-lg font-bold uppercase tracking-wide mb-3 pb-1 border-b border-gray-400">Summary</h2>
+    <p class="text-sm leading-relaxed text-gray-800">{{personal.summary}}</p>
+  </section>
+  {{/if}}
+
+  <!-- Experience -->
+  {{#if experience}}
+  <section class="mb-6">
+    <h2 class="text-lg font-bold uppercase tracking-wide mb-3 pb-1 border-b border-gray-400">Experience</h2>
+    <div class="space-y-4">
+      {{#each experience}}
+      <div>
+        <div class="flex justify-between items-baseline mb-1">
+          <h3 class="font-bold text-sm">{{company}}</h3>
+          <span class="text-xs text-gray-600">{{startDate}} - {{#if endDate}}{{endDate}}{{else}}Present{{/if}}</span>
+        </div>
+        <p class="text-sm italic mb-2 text-gray-700">{{position}}</p>
+        {{#if description}}<p class="text-xs mb-2 text-gray-800">{{description}}</p>{{/if}}
+        {{#if achievements}}
+        <ul class="list-disc list-inside text-xs space-y-1 ml-2 text-gray-800">
+          {{#each achievements}}
+          <li>{{this}}</li>
+          {{/each}}
+        </ul>
+        {{/if}}
+      </div>
+      {{/each}}
+    </div>
+  </section>
+  {{/if}}
+
+  <!-- Projects -->
+  {{#if projects}}
+  <section class="mb-6">
+    <h2 class="text-lg font-bold uppercase tracking-wide mb-3 pb-1 border-b border-gray-400">Projects</h2>
+    <div class="space-y-4">
+      {{#each projects}}
+      <div>
+        <div class="flex justify-between items-baseline mb-1">
+          <h3 class="font-bold text-sm">{{name}}</h3>
+          <span class="text-xs text-gray-600">{{startDate}} - {{#if endDate}}{{endDate}}{{else}}Present{{/if}}</span>
+        </div>
+        <p class="text-sm italic mb-2 text-gray-700">{{role}}</p>
+        {{#if description}}<p class="text-xs mb-2 text-gray-800">{{description}}</p>{{/if}}
+        {{#if achievements}}
+        <ul class="list-disc list-inside text-xs space-y-1 ml-2 text-gray-800">
+          {{#each achievements}}
+          <li>{{this}}</li>
+          {{/each}}
+        </ul>
+        {{/if}}
+      </div>
+      {{/each}}
+    </div>
+  </section>
+  {{/if}}
+
+  <!-- Education -->
+  {{#if education}}
+  <section class="mb-6">
+    <h2 class="text-lg font-bold uppercase tracking-wide mb-3 pb-1 border-b border-gray-400">Education</h2>
+    <div class="space-y-3">
+      {{#each education}}
+      <div>
+        <div class="flex justify-between items-baseline mb-1">
+          <h3 class="font-bold text-sm">{{school}}</h3>
+          <span class="text-xs text-gray-600">{{startDate}} - {{endDate}}</span>
+        </div>
+        <p class="text-sm italic text-gray-700">{{degree}}{{#if major}}, {{major}}{{/if}}</p>
+        {{#if description}}<p class="text-xs text-gray-800 mt-1">{{description}}</p>{{/if}}
+      </div>
+      {{/each}}
+    </div>
+  </section>
+  {{/if}}
+
+  <!-- Certificates -->
+  {{#if certificates}}
+  <section class="mb-6">
+    <h2 class="text-lg font-bold uppercase tracking-wide mb-3 pb-1 border-b border-gray-400">Certificates</h2>
+    <div class="space-y-2">
+      {{#each certificates}}
+      <div class="flex justify-between items-baseline">
+        <div>
+          <h3 class="font-bold text-sm">{{name}}</h3>
+          <p class="text-xs text-gray-600">{{issuer}}</p>
+        </div>
+        <span class="text-xs text-gray-600">{{issueDate}}</span>
+      </div>
+      {{/each}}
+    </div>
+  </section>
+  {{/if}}
+
+  <!-- Skills -->
+  {{#if skills}}
+  <section class="mb-6">
+    <h2 class="text-lg font-bold uppercase tracking-wide mb-3 pb-1 border-b border-gray-400">Skills</h2>
+    <ul class="list-disc list-inside text-sm space-y-2 text-gray-800">
+      {{#if skills.technical}}
+      <li><span class="font-semibold">Technical:</span> 
+        {{#each skills.technical}}{{name}} ({{level}}/5){{#unless @last}}, {{/unless}}{{/each}}
+      </li>
+      {{/if}}
+      {{#if skills.tools}}
+      <li><span class="font-semibold">Tools:</span> 
+        {{#each skills.tools}}{{name}} ({{level}}/5){{#unless @last}}, {{/unless}}{{/each}}
+      </li>
+      {{/if}}
+      {{#if skills.management}}
+      <li><span class="font-semibold">Management:</span> 
+        {{#each skills.management}}{{name}} ({{level}}/5){{#unless @last}}, {{/unless}}{{/each}}
+      </li>
+      {{/if}}
+      {{#if skills.language}}
+      <li><span class="font-semibold">Languages:</span> 
+        {{#each skills.language}}{{language}} - {{level}}{{#unless @last}}, {{/unless}}{{/each}}
+      </li>
+      {{/if}}
+      {{#if skills.soft}}
+      <li><span class="font-semibold">Soft Skills:</span> 
+        {{#each skills.soft}}{{this}}{{#unless @last}}, {{/unless}}{{/each}}
+      </li>
+      {{/if}}
+    </ul>
+  </section>
+  {{/if}}
+</div>

@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "lastModified": "2026-03-19T00:00:00Z",
+    "schema": "lists",
+    "description": "列表类型配置文件"
+  },
+  "listTypes": {
+    "experience": {
+      "id": "experience",
+      "i18nKey": "list.experience.name",
+      "fields": [
+        {"id": "company", "i18nKey": "list.experience.field.company", "required": true},
+        {"id": "position", "i18nKey": "list.experience.field.position", "required": true},
+        {"id": "startDate", "i18nKey": "list.experience.field.startDate", "type": "date", "required": true},
+        {"id": "endDate", "i18nKey": "list.experience.field.endDate", "type": "date", "required": false},
+        {"id": "description", "i18nKey": "list.experience.field.description", "type": "textarea", "required": false},
+        {"id": "achievements", "i18nKey": "list.experience.field.achievements", "type": "array", "required": false}
+      ]
+    },
+    "projects": {
+      "id": "projects",
+      "i18nKey": "list.projects.name",
+      "fields": [
+        {"id": "name", "i18nKey": "list.projects.field.name", "required": true},
+        {"id": "role", "i18nKey": "list.projects.field.role", "required": true},
+        {"id": "startDate", "i18nKey": "list.projects.field.startDate", "type": "date", "required": true},
+        {"id": "endDate", "i18nKey": "list.projects.field.endDate", "type": "date", "required": false},
+        {"id": "description", "i18nKey": "list.projects.field.description", "type": "textarea", "required": false},
+        {"id": "technologies", "i18nKey": "list.projects.field.technologies", "type": "array", "required": false},
+        {"id": "achievements", "i18nKey": "list.projects.field.achievements", "type": "array", "required": false}
+      ]
+    },
+    "education": {
+      "id": "education",
+      "i18nKey": "list.education.name",
+      "fields": [
+        {"id": "school", "i18nKey": "list.education.field.school", "required": true},
+        {"id": "degree", "i18nKey": "list.education.field.degree", "required": true},
+        {"id": "major", "i18nKey": "list.education.field.major", "required": false},
+        {"id": "startDate", "i18nKey": "list.education.field.startDate", "type": "date", "required": true},
+        {"id": "endDate", "i18nKey": "list.education.field.endDate", "type": "date", "required": false},
+        {"id": "description", "i18nKey": "list.education.field.description", "type": "textarea", "required": false}
+      ]
+    },
+    "certificates": {
+      "id": "certificates",
+      "i18nKey": "list.certificates.name",
+      "fields": [
+        {"id": "name", "i18nKey": "list.certificates.field.name", "required": true},
+        {"id": "issuer", "i18nKey": "list.certificates.field.issuer", "required": true},
+        {"id": "issueDate", "i18nKey": "list.certificates.field.issueDate", "type": "date", "required": true},
+        {"id": "expiryDate", "i18nKey": "list.certificates.field.expiryDate", "type": "date", "required": false},
+        {"id": "certificateUrl", "i18nKey": "list.certificates.field.certificateUrl", "type": "url", "required": false}
+      ]
+    }
+  }
+}

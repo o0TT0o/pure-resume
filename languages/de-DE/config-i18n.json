@@ -1,0 +1,71 @@
+{
+  "module": {
+    "personal": "Persönliche Informationen",
+    "experience": "Berufserfahrung",
+    "projects": "Projekte",
+    "education": "Ausbildung",
+    "certificates": "Zertifikate",
+    "skills": "Fähigkeiten"
+  },
+  "skills": {
+    "technical": "Technische Fähigkeiten",
+    "language": "Sprachkenntnisse",
+    "tools": "Werkzeuge",
+    "management": "Management",
+    "soft": "Soft Skills"
+  },
+  "contact": {
+    "phone": {"name": "Telefon", "placeholder": "+49 123-456-7890"},
+    "email": {"name": "E-Mail", "placeholder": "beispiel@email.com"},
+    "location": {"name": "Standort", "placeholder": "Berlin"},
+    "website": {"name": "Website", "placeholder": "https://ihr-website.com"},
+    "github": {"name": "GitHub", "placeholder": "https://github.com/username"},
+    "linkedin": {"name": "LinkedIn", "placeholder": "https://linkedin.com/in/username"}
+  },
+  "list": {
+    "experience": {
+      "name": "Berufserfahrung",
+      "field": {
+        "company": "Unternehmen",
+        "position": "Position",
+        "startDate": "Beginndatum",
+        "endDate": "Enddatum",
+        "description": "Beschreibung",
+        "achievements": "Erfolge"
+      }
+    },
+    "projects": {
+      "name": "Projekte",
+      "field": {
+        "name": "Projektname",
+        "role": "Rolle",
+        "startDate": "Beginndatum",
+        "endDate": "Enddatum",
+        "description": "Beschreibung",
+        "technologies": "Technologien",
+        "achievements": "Erfolge"
+      }
+    },
+    "education": {
+      "name": "Ausbildung",
+      "field": {
+        "school": "Schule",
+        "degree": "Abschluss",
+        "major": "Fachrichtung",
+        "startDate": "Beginndatum",
+        "endDate": "Enddatum",
+        "description": "Beschreibung"
+      }
+    },
+    "certificates": {
+      "name": "Zertifikate",
+      "field": {
+        "name": "Zertifikatname",
+        "issuer": "Aussteller",
+        "issueDate": "Ausstellungsdatum",
+        "expiryDate": "Ablaufdatum",
+        "certificateUrl": "Zertifikat-URL"
+      }
+    }
+  }
+}

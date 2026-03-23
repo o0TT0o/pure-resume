@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "lastModified": "2026-03-19T00:00:00Z",
+    "schema": "contact-fields",
+    "description": "联系字段配置文件"
+  },
+  "contactFields": [
+    {
+      "id": "phone",
+      "i18nKey": "contact.phone",
+      "type": "tel",
+      "required": true,
+      "icon": "phone"
+    },
+    {
+      "id": "email",
+      "i18nKey": "contact.email",
+      "type": "email",
+      "required": true,
+      "icon": "email"
+    },
+    {
+      "id": "location",
+      "i18nKey": "contact.location",
+      "type": "text",
+      "required": false,
+      "icon": "location"
+    },
+    {
+      "id": "website",
+      "i18nKey": "contact.website",
+      "type": "url",
+      "required": false,
+      "icon": "language"
+    },
+    {
+      "id": "github",
+      "i18nKey": "contact.github",
+      "type": "url",
+      "required": false,
+      "icon": "code"
+    },
+    {
+      "id": "linkedin",
+      "i18nKey": "contact.linkedin",
+      "type": "url",
+      "required": false,
+      "icon": "work"
+    }
+  ]
+}

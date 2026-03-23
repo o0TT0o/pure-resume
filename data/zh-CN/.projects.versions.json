@@ -1,0 +1,549 @@
+[
+  {
+    "id": "v1773996561073",
+    "timestamp": "2026-03-20T08:49:21.073Z",
+    "data": [
+      {
+        "id": "proj-001",
+        "name": "企业级管理系统",
+        "role": "技术负责人",
+        "startDate": "2022-01",
+        "endDate": "2022-06",
+        "description": "为企业客户开发的一体化管理系统，包含CRM、ERP、项目管理等模块。",
+        "technologies": [
+          "Vue3",
+          "TypeScript",
+          "Element Plus",
+          "Node.js"
+        ],
+        "achievements": [
+          "完成了系统架构设计，支持多租户、权限管理",
+          "开发了20+核心组件，形成内部组件库",
+          "项目成功上线，获得客户好评"
+        ]
+      },
+      {
+        "id": "proj-002",
+        "name": "移动端商城应用",
+        "role": "前端负责人",
+        "startDate": "2021-03",
+        "endDate": "2021-09",
+        "description": "基于React Native开发的跨平台商城应用，支持iOS和Android。",
+        "technologies": [
+          "React Native",
+          "Redux",
+          "JavaScript"
+        ],
+        "achievements": [
+          "完成了商城核心功能开发",
+          "优化了列表滚动性能，提升用户体验",
+          "应用商店评分达到4.8分"
+        ]
+      },
+      {
+        "name": "简历系统",
+        "role": "AI管理员",
+        "startDate": "2026-03",
+        "endDate": "2026-03",
+        "description": "本项目",
+        "technologies": "AI",
+        "achievements": "自己很满意"
+      }
+    ]
+  },
+  {
+    "id": "v1773996564230",
+    "timestamp": "2026-03-20T08:49:24.230Z",
+    "data": [
+      {
+        "id": "proj-001",
+        "name": "企业级管理系统",
+        "role": "技术负责人",
+        "startDate": "2022-01",
+        "endDate": "2022-06",
+        "description": "为企业客户开发的一体化管理系统，包含CRM、ERP、项目管理等模块。",
+        "technologies": [
+          "Vue3",
+          "TypeScript",
+          "Element Plus",
+          "Node.js"
+        ],
+        "achievements": [
+          "完成了系统架构设计，支持多租户、权限管理",
+          "开发了20+核心组件，形成内部组件库",
+          "项目成功上线，获得客户好评"
+        ]
+      },
+      {
+        "id": "proj-002",
+        "name": "移动端商城应用",
+        "role": "前端负责人",
+        "startDate": "2021-03",
+        "endDate": "2021-09",
+        "description": "基于React Native开发的跨平台商城应用，支持iOS和Android。",
+        "technologies": [
+          "React Native",
+          "Redux",
+          "JavaScript"
+        ],
+        "achievements": [
+          "完成了商城核心功能开发",
+          "优化了列表滚动性能，提升用户体验",
+          "应用商店评分达到4.8分"
+        ]
+      },
+      {
+        "name": "简历系统",
+        "role": "AI管理员",
+        "startDate": "2026-03",
+        "endDate": "2026-03",
+        "description": "本项目",
+        "technologies": "AI",
+        "achievements": "自己很满意"
+      }
+    ]
+  },
+  {
+    "id": "v1773996565322",
+    "timestamp": "2026-03-20T08:49:25.322Z",
+    "data": [
+      {
+        "id": "proj-001",
+        "name": "企业级管理系统",
+        "role": "技术负责人",
+        "startDate": "2022-01",
+        "endDate": "2022-06",
+        "description": "为企业客户开发的一体化管理系统，包含CRM、ERP、项目管理等模块。",
+        "technologies": [
+          "Vue3",
+          "TypeScript",
+          "Element Plus",
+          "Node.js"
+        ],
+        "achievements": [
+          "完成了系统架构设计，支持多租户、权限管理",
+          "开发了20+核心组件，形成内部组件库",
+          "项目成功上线，获得客户好评"
+        ]
+      },
+      {
+        "id": "proj-002",
+        "name": "移动端商城应用",
+        "role": "前端负责人",
+        "startDate": "2021-03",
+        "endDate": "2021-09",
+        "description": "基于React Native开发的跨平台商城应用，支持iOS和Android。",
+        "technologies": [
+          "React Native",
+          "Redux",
+          "JavaScript"
+        ],
+        "achievements": [
+          "完成了商城核心功能开发",
+          "优化了列表滚动性能，提升用户体验",
+          "应用商店评分达到4.8分"
+        ]
+      },
+      {
+        "name": "简历系统",
+        "role": "AI管理员",
+        "startDate": "2026-03",
+        "endDate": "2026-03",
+        "description": "本项目",
+        "technologies": "AI",
+        "achievements": "自己很满意"
+      }
+    ]
+  },
+  {
+    "id": "v1773996578520",
+    "timestamp": "2026-03-20T08:49:38.520Z",
+    "data": [
+      {
+        "id": "proj-001",
+        "name": "企业级管理系统",
+        "role": "技术负责人",
+        "startDate": "2022-01",
+        "endDate": "2022-06",
+        "description": "为企业客户开发的一体化管理系统，包含CRM、ERP、项目管理等模块。",
+        "technologies": [
+          "Vue3",
+          "TypeScript",
+          "Element Plus",
+          "Node.js"
+        ],
+        "achievements": [
+          "完成了系统架构设计，支持多租户、权限管理",
+          "开发了20+核心组件，形成内部组件库",
+          "项目成功上线，获得客户好评"
+        ]
+      },
+      {
+        "id": "proj-002",
+        "name": "移动端商城应用",
+        "role": "前端负责人",
+        "startDate": "2021-03",
+        "endDate": "2021-09",
+        "description": "基于React Native开发的跨平台商城应用，支持iOS和Android。",
+        "technologies": [
+          "React Native",
+          "Redux",
+          "JavaScript"
+        ],
+        "achievements": [
+          "完成了商城核心功能开发",
+          "优化了列表滚动性能，提升用户体验",
+          "应用商店评分达到4.8分"
+        ]
+      },
+      {
+        "name": "简历系统",
+        "role": "AI管理员",
+        "startDate": "2026-03",
+        "endDate": "2026-03",
+        "description": "本项目",
+        "technologies": "AI",
+        "achievements": "自己很满意"
+      },
+      {
+        "name": "1",
+        "role": "2",
+        "startDate": "",
+        "endDate": "",
+        "description": "3",
+        "technologies": "5",
+        "achievements": "4"
+      }
+    ]
+  },
+  {
+    "id": "v1773996589857",
+    "timestamp": "2026-03-20T08:49:49.857Z",
+    "data": [
+      {
+        "id": "proj-001",
+        "name": "企业级管理系统",
+        "role": "技术负责人",
+        "startDate": "2022-01",
+        "endDate": "2022-06",
+        "description": "为企业客户开发的一体化管理系统，包含CRM、ERP、项目管理等模块。",
+        "technologies": [
+          "Vue3",
+          "TypeScript",
+          "Element Plus",
+          "Node.js"
+        ],
+        "achievements": [
+          "完成了系统架构设计，支持多租户、权限管理",
+          "开发了20+核心组件，形成内部组件库",
+          "项目成功上线，获得客户好评"
+        ]
+      },
+      {
+        "id": "proj-002",
+        "name": "移动端商城应用",
+        "role": "前端负责人",
+        "startDate": "2021-03",
+        "endDate": "2021-09",
+        "description": "基于React Native开发的跨平台商城应用，支持iOS和Android。",
+        "technologies": [
+          "React Native",
+          "Redux",
+          "JavaScript"
+        ],
+        "achievements": [
+          "完成了商城核心功能开发",
+          "优化了列表滚动性能，提升用户体验",
+          "应用商店评分达到4.8分"
+        ]
+      },
+      {
+        "name": "简历系统",
+        "role": "AI管理员",
+        "startDate": "2026-03",
+        "endDate": "2026-03",
+        "description": "本项目",
+        "technologies": "AI",
+        "achievements": "自己很满意"
+      },
+      {
+        "name": "1",
+        "role": "2",
+        "startDate": "",
+        "endDate": "",
+        "description": "3",
+        "technologies": "5",
+        "achievements": "4"
+      }
+    ]
+  },
+  {
+    "id": "v1773996601838",
+    "timestamp": "2026-03-20T08:50:01.838Z",
+    "data": [
+      {
+        "id": "proj-001",
+        "name": "企业级管理系统",
+        "role": "技术负责人",
+        "startDate": "2022-01",
+        "endDate": "2022-06",
+        "description": "为企业客户开发的一体化管理系统，包含CRM、ERP、项目管理等模块。",
+        "technologies": [
+          "Vue3",
+          "TypeScript",
+          "Element Plus",
+          "Node.js"
+        ],
+        "achievements": [
+          "完成了系统架构设计，支持多租户、权限管理",
+          "开发了20+核心组件，形成内部组件库",
+          "项目成功上线，获得客户好评"
+        ]
+      },
+      {
+        "id": "proj-002",
+        "name": "移动端商城应用",
+        "role": "前端负责人",
+        "startDate": "2021-03",
+        "endDate": "2021-09",
+        "description": "基于React Native开发的跨平台商城应用，支持iOS和Android。",
+        "technologies": [
+          "React Native",
+          "Redux",
+          "JavaScript"
+        ],
+        "achievements": [
+          "完成了商城核心功能开发",
+          "优化了列表滚动性能，提升用户体验",
+          "应用商店评分达到4.8分"
+        ]
+      },
+      {
+        "name": "简历系统",
+        "role": "AI管理员",
+        "startDate": "2026-03",
+        "endDate": "2026-03",
+        "description": "本项目",
+        "technologies": "AI",
+        "achievements": "自己很满意"
+      },
+      {
+        "name": "1",
+        "role": "2",
+        "startDate": "",
+        "endDate": "",
+        "description": "3",
+        "technologies": "5",
+        "achievements": "4"
+      }
+    ]
+  },
+  {
+    "id": "v1774003651694",
+    "timestamp": "2026-03-20T10:47:31.694Z",
+    "data": [
+      {
+        "id": "proj-001",
+        "name": "企业级管理系统",
+        "role": "技术负责人",
+        "startDate": "2022-01",
+        "endDate": "2022-06",
+        "description": "为企业客户开发的一体化管理系统，包含CRM、ERP、项目管理等模块。",
+        "technologies": [
+          "Vue3",
+          "TypeScript",
+          "Element Plus",
+          "Node.js"
+        ],
+        "achievements": [
+          "完成了系统架构设计，支持多租户、权限管理",
+          "开发了20+核心组件，形成内部组件库",
+          "项目成功上线，获得客户好评"
+        ]
+      },
+      {
+        "id": "proj-002",
+        "name": "移动端商城应用",
+        "role": "前端负责人",
+        "startDate": "2021-03",
+        "endDate": "2021-09",
+        "description": "基于React Native开发的跨平台商城应用，支持iOS和Android。",
+        "technologies": [
+          "React Native",
+          "Redux",
+          "JavaScript"
+        ],
+        "achievements": [
+          "完成了商城核心功能开发",
+          "优化了列表滚动性能，提升用户体验",
+          "应用商店评分达到4.8分"
+        ]
+      },
+      {
+        "name": "简历系统",
+        "role": "AI管理员",
+        "startDate": "2026-03",
+        "endDate": "2026-03",
+        "description": "本项目",
+        "technologies": "AI",
+        "achievements": "自己很满意"
+      }
+    ]
+  },
+  {
+    "id": "v1774003764342",
+    "timestamp": "2026-03-20T10:49:24.342Z",
+    "data": [
+      {
+        "id": "proj-001",
+        "name": "企业级管理系统",
+        "role": "技术负责人",
+        "startDate": "2022-01",
+        "endDate": "2022-06",
+        "description": "为企业客户开发的一体化管理系统，包含CRM、ERP、项目管理等模块。",
+        "technologies": [
+          "Vue3",
+          "TypeScript",
+          "Element Plus",
+          "Node.js"
+        ],
+        "achievements": [
+          "完成了系统架构设计，支持多租户、权限管理",
+          "开发了20+核心组件，形成内部组件库",
+          "项目成功上线，获得客户好评"
+        ]
+      },
+      {
+        "id": "proj-002",
+        "name": "移动端商城应用",
+        "role": "前端负责人",
+        "startDate": "2021-03",
+        "endDate": "2021-09",
+        "description": "基于React Native开发的跨平台商城应用，支持iOS和Android。",
+        "technologies": [
+          "React Native",
+          "Redux",
+          "JavaScript"
+        ],
+        "achievements": [
+          "完成了商城核心功能开发",
+          "优化了列表滚动性能，提升用户体验",
+          "应用商店评分达到4.8分"
+        ]
+      },
+      {
+        "name": "简历系统",
+        "role": "AI管理员",
+        "startDate": "2026-03",
+        "endDate": "2026-03",
+        "description": "本项目",
+        "technologies": "AI",
+        "achievements": "自己很满意"
+      }
+    ]
+  },
+  {
+    "id": "v1774003884634",
+    "timestamp": "2026-03-20T10:51:24.634Z",
+    "data": [
+      {
+        "id": "proj-001",
+        "name": "企业级管理系统",
+        "role": "技术负责人",
+        "startDate": "2022-01",
+        "endDate": "2022-06",
+        "description": "为企业客户开发的一体化管理系统，包含CRM、ERP、项目管理等模块。",
+        "technologies": [
+          "Vue3",
+          "TypeScript",
+          "Element Plus",
+          "Node.js"
+        ],
+        "achievements": [
+          "完成了系统架构设计，支持多租户、权限管理",
+          "开发了20+核心组件，形成内部组件库",
+          "项目成功上线，获得客户好评"
+        ]
+      },
+      {
+        "id": "proj-002",
+        "name": "移动端商城应用",
+        "role": "前端负责人",
+        "startDate": "2021-03",
+        "endDate": "2021-09",
+        "description": "基于React Native开发的跨平台商城应用，支持iOS和Android。",
+        "technologies": [
+          "React Native",
+          "Redux",
+          "JavaScript"
+        ],
+        "achievements": [
+          "完成了商城核心功能开发",
+          "优化了列表滚动性能，提升用户体验",
+          "应用商店评分达到4.8分"
+        ]
+      },
+      {
+        "name": "简历系统",
+        "role": "AI管理员",
+        "startDate": "2026-03",
+        "endDate": "2026-03",
+        "description": "本项目",
+        "technologies": "AI",
+        "achievements": "自己很满意"
+      }
+    ]
+  },
+  {
+    "id": "v1774003894163",
+    "timestamp": "2026-03-20T10:51:34.163Z",
+    "data": [
+      {
+        "id": "proj-001",
+        "name": "企业级管理系统",
+        "role": "技术负责人",
+        "startDate": "2022-01",
+        "endDate": "2022-06",
+        "description": "为企业客户开发的一体化管理系统，包含CRM、ERP、项目管理等模块。",
+        "technologies": [
+          "Vue3",
+          "TypeScript",
+          "Element Plus",
+          "Node.js"
+        ],
+        "achievements": [
+          "完成了系统架构设计，支持多租户、权限管理",
+          "开发了20+核心组件，形成内部组件库",
+          "项目成功上线，获得客户好评"
+        ]
+      },
+      {
+        "id": "proj-002",
+        "name": "移动端商城应用",
+        "role": "前端负责人",
+        "startDate": "2021-03",
+        "endDate": "2021-09",
+        "description": "基于React Native开发的跨平台商城应用，支持iOS和Android。",
+        "technologies": [
+          "React Native",
+          "Redux",
+          "JavaScript"
+        ],
+        "achievements": [
+          "完成了商城核心功能开发",
+          "优化了列表滚动性能，提升用户体验",
+          "应用商店评分达到4.8分"
+        ]
+      },
+      {
+        "name": "简历系统",
+        "role": "AI管理员",
+        "startDate": "2026-03",
+        "endDate": "2026-03",
+        "description": "本项目",
+        "technologies": "AI",
+        "achievements": "自己很满意"
+      }
+    ]
+  }
+]

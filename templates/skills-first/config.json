@@ -1,0 +1,54 @@
+{
+  "id": "skills-first",
+  "name": "skills-first",
+  "description": "Skills-focused resume template, ideal for technical positions",
+  "category": "technical",
+  "features": [
+    "skills-focused",
+    "modern-layout",
+    "responsive"
+  ],
+  "supports": {
+    "export-pdf": true,
+    "export-word": true,
+    "multi-language": true,
+    "ats-optimized": false
+  },
+  "sections": {
+    "personal": {
+      "position": "top",
+      "required": true
+    },
+    "skills": {
+      "position": "top",
+      "required": true
+    },
+    "experience": {
+      "position": "middle",
+      "required": true
+    },
+    "projects": {
+      "position": "middle",
+      "required": false
+    },
+    "education": {
+      "position": "bottom",
+      "required": false
+    },
+    "certificates": {
+      "position": "bottom",
+      "required": false
+    }
+  },
+  "style": {
+    "layout": "two-column",
+    "colors": {
+      "primary": "#2563eb",
+      "secondary": "#7c3aed"
+    },
+    "fonts": {
+      "heading": "sans-serif",
+      "body": "sans-serif"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "neo-brutalist",
+  "name": "Neo-Brutalist",
+  "description": "Neo-Brutalism resume template with bold color blocks, hard black borders and heavy shadows. Perfect for UI/UX designers and creative professionals.",
+  "category": "creative",
+  "features": [
+    "bold-design",
+    "color-blocks",
+    "heavy-borders",
+    "modern-aesthetic",
+    "responsive"
+  ],
+  "supports": {
+    "export-pdf": true,
+    "export-word": true,
+    "multi-language": true,
+    "ats-optimized": false
+  },
+  "sections": {
+    "personal": {
+      "position": "left",
+      "required": true
+    },
+    "experience": {
+      "position": "right",
+      "required": true
+    },
+    "projects": {
+      "position": "right",
+      "required": false
+    },
+    "education": {
+      "position": "right",
+      "required": false
+    },
+    "certificates": {
+      "position": "right",
+      "required": false
+    },
+    "skills": {
+      "position": "left",
+      "required": true
+    }
+  },
+  "style": {
+    "layout": "two-column",
+    "colors": {
+      "primary": "#F97316",
+      "secondary": "#000000",
+      "accent": "#FDBA74"
+    },
+    "fonts": {
+      "heading": "sans-serif",
+      "body": "sans-serif"
+    }
+  }
+}

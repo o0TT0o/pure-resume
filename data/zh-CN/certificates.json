@@ -1,0 +1,18 @@
+[
+  {
+    "id": "cert-001",
+    "name": "AWS认证解决方案架构师",
+    "issuer": "Amazon Web Services",
+    "issueDate": "2023-06",
+    "expiryDate": "",
+    "certificateUrl": "https://aws.amazon.com/certification/"
+  },
+  {
+    "id": "cert-002",
+    "name": "PMP项目管理专业人士",
+    "issuer": "PMI",
+    "issueDate": "2022-03",
+    "expiryDate": "2025-03",
+    "certificateUrl": "https://www.pmi.org/"
+  }
+]

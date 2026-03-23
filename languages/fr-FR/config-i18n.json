@@ -1,0 +1,71 @@
+{
+  "module": {
+    "personal": "Informations personnelles",
+    "experience": "Expérience professionnelle",
+    "projects": "Projets",
+    "education": "Formation",
+    "certificates": "Certificats",
+    "skills": "Compétences"
+  },
+  "skills": {
+    "technical": "Compétences techniques",
+    "language": "Langues",
+    "tools": "Outils",
+    "management": "Gestion",
+    "soft": "Compétences interpersonnelles"
+  },
+  "contact": {
+    "phone": {"name": "Téléphone", "placeholder": "+33 1 23 45 67 89"},
+    "email": {"name": "E-mail", "placeholder": "exemple@email.com"},
+    "location": {"name": "Localisation", "placeholder": "Paris"},
+    "website": {"name": "Site web", "placeholder": "https://votre-site.com"},
+    "github": {"name": "GitHub", "placeholder": "https://github.com/username"},
+    "linkedin": {"name": "LinkedIn", "placeholder": "https://linkedin.com/in/username"}
+  },
+  "list": {
+    "experience": {
+      "name": "Expérience professionnelle",
+      "field": {
+        "company": "Entreprise",
+        "position": "Poste",
+        "startDate": "Date de début",
+        "endDate": "Date de fin",
+        "description": "Description",
+        "achievements": "Réalisations"
+      }
+    },
+    "projects": {
+      "name": "Projets",
+      "field": {
+        "name": "Nom du projet",
+        "role": "Rôle",
+        "startDate": "Date de début",
+        "endDate": "Date de fin",
+        "description": "Description",
+        "technologies": "Technologies",
+        "achievements": "Réalisations"
+      }
+    },
+    "education": {
+      "name": "Formation",
+      "field": {
+        "school": "École",
+        "degree": "Diplôme",
+        "major": "Spécialité",
+        "startDate": "Date de début",
+        "endDate": "Date de fin",
+        "description": "Description"
+      }
+    },
+    "certificates": {
+      "name": "Certificats",
+      "field": {
+        "name": "Nom du certificat",
+        "issuer": "Émetteur",
+        "issueDate": "Date d'émission",
+        "expiryDate": "Date d'expiration",
+        "certificateUrl": "URL du certificat"
+      }
+    }
+  }
+}

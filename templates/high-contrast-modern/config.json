@@ -1,0 +1,59 @@
+{
+  "id": "high-contrast-modern",
+  "name": "High-Contrast Modern",
+  "description": "High-contrast modern resume with asymmetric color blocks. Uses extreme color brightness differences with pure black, white, and vibrant orange (#FF5733) to guide visual flow. Perfect for professionals seeking clarity and efficiency.",
+  "category": "modern",
+  "features": [
+    "high-contrast",
+    "asymmetric-layout",
+    "signal-colors",
+    "clean-edges",
+    "mega-typography",
+    "responsive"
+  ],
+  "supports": {
+    "export-pdf": true,
+    "export-word": true,
+    "multi-language": true,
+    "ats-optimized": false
+  },
+  "sections": {
+    "personal": {
+      "position": "left",
+      "required": true
+    },
+    "experience": {
+      "position": "right",
+      "required": true
+    },
+    "projects": {
+      "position": "right",
+      "required": false
+    },
+    "education": {
+      "position": "right",
+      "required": false
+    },
+    "certificates": {
+      "position": "right",
+      "required": false
+    },
+    "skills": {
+      "position": "left",
+      "required": true
+    }
+  },
+  "style": {
+    "layout": "asymmetric-two-column",
+    "colors": {
+      "primary": "#FF5733",
+      "secondary": "#0F172A",
+      "background": "#FFFFFF",
+      "text": "#0F172A"
+    },
+    "fonts": {
+      "heading": "sans-serif",
+      "body": "sans-serif"
+    }
+  }
+}

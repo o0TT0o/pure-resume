@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "技能分类配置 Schema",
+  "description": "技能分类配置的验证规则",
+  "type": "object",
+  "required": ["_meta", "categories"],
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "required": ["version", "lastModified", "schema", "description"]
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "i18nKey", "type", "icon"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z-]+$"
+          },
+          "i18nKey": {
+            "type": "string",
+            "pattern": "^skills\\.[a-z-]+$"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["rated", "text", "list"]
+          },
+          "ratingScale": {
+            "type": "number",
+            "minimum": 1,
+            "maximum": 10
+          },
+          "icon": {
+            "type": "string",
+            "pattern": "^[a-z_]+$"
+          }
+        }
+      }
+    }
+  }
+}

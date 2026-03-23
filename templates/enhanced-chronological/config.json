@@ -1,0 +1,54 @@
+{
+  "id": "enhanced-chronological",
+  "name": "enhanced-chronological",
+  "description": "Resume template with highlighted timeline, suitable for continuous work experience",
+  "category": "professional",
+  "features": [
+    "timeline-layout",
+    "enhanced-visuals",
+    "responsive"
+  ],
+  "supports": {
+    "export-pdf": true,
+    "export-word": true,
+    "multi-language": true,
+    "ats-optimized": false
+  },
+  "sections": {
+    "personal": {
+      "position": "top",
+      "required": true
+    },
+    "experience": {
+      "position": "middle",
+      "required": true
+    },
+    "projects": {
+      "position": "middle",
+      "required": false
+    },
+    "education": {
+      "position": "bottom",
+      "required": false
+    },
+    "certificates": {
+      "position": "bottom",
+      "required": false
+    },
+    "skills": {
+      "position": "bottom",
+      "required": true
+    }
+  },
+  "style": {
+    "layout": "timeline",
+    "colors": {
+      "primary": "#1a5490",
+      "secondary": "#4a90e2"
+    },
+    "fonts": {
+      "heading": "serif",
+      "body": "sans-serif"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "module": {
+    "personal": "個人情報",
+    "experience": "職歴",
+    "projects": "プロジェクト",
+    "education": "学歴",
+    "certificates": "資格",
+    "skills": "スキル"
+  },
+  "skills": {
+    "technical": "技術スキル",
+    "language": "言語能力",
+    "tools": "ツール",
+    "management": "マネジメント",
+    "soft": "ソフトスキル"
+  },
+  "contact": {
+    "phone": {"name": "電話番号", "placeholder": "090-xxxx-xxxx"},
+    "email": {"name": "メールアドレス", "placeholder": "example@email.com"},
+    "location": {"name": "所在地", "placeholder": "東京都"},
+    "website": {"name": "ウェブサイト", "placeholder": "https://yourwebsite.com"},
+    "github": {"name": "GitHub", "placeholder": "https://github.com/username"},
+    "linkedin": {"name": "LinkedIn", "placeholder": "https://linkedin.com/in/username"}
+  },
+  "list": {
+    "experience": {
+      "name": "職歴",
+      "field": {
+        "company": "会社名",
+        "position": "役職",
+        "startDate": "開始日",
+        "endDate": "終了日",
+        "description": "職務内容",
+        "achievements": "実績"
+      }
+    },
+    "projects": {
+      "name": "プロジェクト",
+      "field": {
+        "name": "プロジェクト名",
+        "role": "役割",
+        "startDate": "開始日",
+        "endDate": "終了日",
+        "description": "説明",
+        "technologies": "技術スタック",
+        "achievements": "実績"
+      }
+    },
+    "education": {
+      "name": "学歴",
+      "field": {
+        "school": "学校名",
+        "degree": "学位",
+        "major": "専攻",
+        "startDate": "開始日",
+        "endDate": "終了日",
+        "description": "補足情報"
+      }
+    },
+    "certificates": {
+      "name": "資格",
+      "field": {
+        "name": "資格名",
+        "issuer": "発行機関",
+        "issueDate": "取得日",
+        "expiryDate": "有効期限",
+        "certificateUrl": "資格URL"
+      }
+    }
+  }
+}

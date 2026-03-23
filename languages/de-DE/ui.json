@@ -1,0 +1,112 @@
+{
+  "header": {
+    "title": "Lebenslauf",
+    "edit": "Bearbeiten",
+    "export": "Exportieren",
+    "import": "Importieren",
+    "preview": "Vorschau",
+    "enterEditMode": "Bearbeitungsmodus aktivieren",
+    "exitEditMode": "Bearbeitungsmodus beenden",
+    "adminEditMode": "🔒 Administrator-Bearbeitungsmodus",
+    "exportPDF": "PDF exportieren",
+    "exportWord": "Word exportieren",
+    "upload": "Hochladen"
+  },
+  "modal": {
+    "import": {
+      "title": "Lebenslauf importieren",
+      "fromPDF": "Aus PDF importieren",
+      "fromPDFDesc": "Unterstützt das Parsen von PDF-Dateien zum Extrahieren von Lebenslaufinhalten",
+      "fromWord": "Aus Word importieren",
+      "fromWordDesc": "Unterstützt das Parsen von Word-Dateien zum Extrahieren von Lebenslaufinhalten",
+      "importing": "Datei wird importiert...",
+      "result": "Importergebnis",
+      "success": "✓ Import erfolgreich",
+      "parseModules": "Analysemodule",
+      "warning": "⚠️ Bitte überprüfen Sie, ob der importierte Inhalt korrekt ist. Passen Sie ihn bei Bedarf manuell an"
+    },
+    "upload": {
+      "title": "Bild hochladen",
+      "uploadAvatar": "Profilbild hochladen",
+      "uploadAvatarDesc": "Persönliches Profilbild hochladen (unterstützt JPEG, PNG, GIF, WebP)",
+      "uploadProject": "Projektbild hochladen",
+      "uploadProjectDesc": "Projektanzeigebild hochladen (unterstützt JPEG, PNG, GIF, WebP)",
+      "uploading": "Bild wird hochgeladen...",
+      "success": "Upload erfolgreich",
+      "imageURL": "Bild-URL",
+      "copyURL": "URL kopieren",
+      "urlCopied": "URL in die Zwischenablage kopiert"
+    },
+    "version": {
+      "title": "Versionsvergleich",
+      "noChanges": "Keine Änderungen erkannt",
+      "confirm": "Speichern bestätigen"
+    },
+    "unsavedChanges": {
+      "language": "Sie haben ungespeicherte Änderungen. Das Wechseln der Sprache führt zum Verlust dieser Änderungen. Fortfahren?",
+      "template": "Sie haben ungespeicherte Änderungen. Das Wechseln der Vorlage erfordert möglicherweise ein Neuladen der Seite. Fortfahren?",
+      "exit": "Sie haben ungespeicherte Änderungen. Das Beenden des Bearbeitungsmodus führt zum Verlust dieser Änderungen. Fortfahren?"
+    },
+    "close": "✕"
+  },
+  "validation": {
+    "fileTooLarge": "Dateigröße darf 5MB nicht überschreiten",
+    "invalidFileType": "Nur Bilddateien werden unterstützt (JPEG, PNG, GIF, WebP)",
+    "importFailed": "Import fehlgeschlagen",
+    "uploadFailed": "Upload fehlgeschlagen"
+  },
+  "export": {
+    "generatingPDF": "PDF wird generiert...",
+    "generatingWord": "Word-Dokument wird generiert...",
+    "failed": "Export fehlgeschlagen"
+  },
+  "preview": {
+    "noData": "Keine Daten vorhanden",
+    "clickToAdd": "Klicken Sie auf die Schaltfläche unten, um hinzuzufügen",
+    "unnamed": "Unbenannt"
+  },
+  "personal": {
+    "section": "Persönliche Informationen"
+  },
+  "experience": {
+    "section": "Berufserfahrung",
+    "current": "Heute",
+    "addExperience": "Erfahrung hinzufügen"
+  },
+  "projects": {
+    "section": "Projekte",
+    "addProject": "Projekt hinzufügen"
+  },
+  "education": {
+    "section": "Ausbildung",
+    "addEducation": "Ausbildung hinzufügen"
+  },
+  "certificates": {
+    "section": "Zertifikate",
+    "addCertificate": "Zertifikat hinzufügen"
+  },
+  "skills": {
+    "section": "Fähigkeiten",
+    "technical": "Technische Fähigkeiten",
+    "language": "Sprachkenntnisse",
+    "soft": "Soft Skills",
+    "addSkill": "Fähigkeit hinzufügen",
+    "add": "Hinzufügen"
+  },
+  "common": {
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "confirm": "Bestätigen",
+    "loading": "Laden...",
+    "success": "Erfolgreich",
+    "error": "Fehler",
+    "upload": "Hochladen",
+    "download": "Herunterladen",
+    "reset": "Zurücksetzen",
+    "confirmText": "Bestätigen",
+    "ok": "OK",
+    "item": "Element"
+  }
+}

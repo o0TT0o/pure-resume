@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "联系字段配置 Schema",
+  "description": "联系字段配置的验证规则",
+  "type": "object",
+  "required": ["_meta", "contactFields"],
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "required": ["version", "lastModified", "schema", "description"]
+    },
+    "contactFields": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "i18nKey", "type", "required", "icon"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z-]+$"
+          },
+          "i18nKey": {
+            "type": "string",
+            "pattern": "^contact\\.[a-z-]+$"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["tel", "email", "text", "url"]
+          },
+          "required": {
+            "type": "boolean"
+          },
+          "icon": {
+            "type": "string",
+            "pattern": "^[a-z_]+$"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "header": {
+    "title": "レジュメ",
+    "edit": "編集",
+    "export": "エクスポート",
+    "import": "インポート",
+    "preview": "プレビュー",
+    "enterEditMode": "編集モードに入る",
+    "exitEditMode": "編集モードを終了",
+    "adminEditMode": "🔒 管理者編集モード",
+    "exportPDF": "PDFでエクスポート",
+    "exportWord": "Wordでエクスポート",
+    "upload": "アップロード"
+  },
+  "modal": {
+    "import": {
+      "title": "レジュメをインポート",
+      "fromPDF": "PDFからインポート",
+      "fromPDFDesc": "PDFファイルを解析してレジュメの内容を抽出します",
+      "fromWord": "Wordからインポート",
+      "fromWordDesc": "Wordファイルを解析してレジュメの内容を抽出します",
+      "importing": "ファイルをインポート中...",
+      "result": "インポート結果",
+      "success": "✓ インポート成功",
+      "parseModules": "解析済みモジュール",
+      "warning": "⚠️ インポートされた内容が正しいか確認してください。必要に応じて手動で調整してください"
+    },
+    "upload": {
+      "title": "画像をアップロード",
+      "uploadAvatar": "アバターをアップロード",
+      "uploadAvatarDesc": "プロフィール画像をアップロード（JPEG、PNG、GIF、WebPをサポート）",
+      "uploadProject": "プロジェクト画像をアップロード",
+      "uploadProjectDesc": "プロジェクト展示画像をアップロード（JPEG、PNG、GIF、WebPをサポート）",
+      "uploading": "画像をアップロード中...",
+      "success": "アップロード成功",
+      "imageURL": "画像URL",
+      "copyURL": "URLをコピー",
+      "urlCopied": "URLがクリップボードにコピーされました"
+    },
+    "version": {
+      "title": "バージョン比較",
+      "noChanges": "変更は検出されませんでした",
+      "confirm": "保存を確認"
+    },
+    "unsavedChanges": {
+      "language": "保存されていない変更があります。言語を切り替えると、これらの変更が失われます。続行しますか？",
+      "template": "保存されていない変更があります。テンプレートを切り替えると、ページを再読み込みする必要があります。続行しますか？",
+      "exit": "保存されていない変更があります。編集モードを終了すると、これらの変更が失われます。続行しますか？"
+    },
+    "close": "✕"
+  },
+  "validation": {
+    "fileTooLarge": "ファイルサイズは5MBを超えてはいけません",
+    "invalidFileType": "画像ファイルのみサポートされています（JPEG、PNG、GIF、WebP）",
+    "importFailed": "インポートに失敗しました",
+    "uploadFailed": "アップロードに失敗しました"
+  },
+  "export": {
+    "generatingPDF": "PDFを生成中...",
+    "generatingWord": "Wordドキュメントを生成中...",
+    "failed": "エクスポートに失敗しました"
+  },
+  "preview": {
+    "noData": "データがありません",
+    "clickToAdd": "下のボタンをクリックして追加",
+    "unnamed": "名称未設定"
+  },
+  "personal": {
+    "section": "個人情報"
+  },
+  "experience": {
+    "section": "職歴",
+    "current": "現在",
+    "addExperience": "職歴を追加"
+  },
+  "projects": {
+    "section": "プロジェクト",
+    "addProject": "プロジェクトを追加"
+  },
+  "education": {
+    "section": "学歴",
+    "addEducation": "学歴を追加"
+  },
+  "certificates": {
+    "section": "資格",
+    "addCertificate": "資格を追加"
+  },
+  "skills": {
+    "section": "スキル",
+    "technical": "技術スキル",
+    "language": "言語能力",
+    "soft": "ソフトスキル",
+    "addSkill": "スキルを追加",
+    "add": "追加"
+  },
+  "common": {
+    "save": "保存",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "edit": "編集",
+    "confirm": "確認",
+    "loading": "読み込み中...",
+    "success": "成功",
+    "error": "エラー",
+    "upload": "アップロード",
+    "download": "ダウンロード",
+    "reset": "リセット",
+    "confirmText": "確認",
+    "ok": "OK",
+    "item": "アイテム"
+  }
+}

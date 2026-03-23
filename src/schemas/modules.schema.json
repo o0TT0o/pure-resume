@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "模块配置 Schema",
+  "description": "数据模块配置的验证规则",
+  "type": "object",
+  "required": ["_meta"],
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "required": ["version", "lastModified", "schema", "description"],
+      "properties": {
+        "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+        "lastModified": { "type": "string", "format": "date-time" },
+        "schema": { "type": "string", "enum": ["modules"] },
+        "description": { "type": "string" }
+      }
+    }
+  },
+  "additionalProperties": {
+    "type": "object",
+    "required": ["id", "i18nKey", "required", "file", "type"],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z-]+$",
+        "description": "模块ID，只能包含小写字母和连字符"
+      },
+      "i18nKey": {
+        "type": "string",
+        "pattern": "^module\\.[a-z-]+$",
+        "description": "i18n键值，必须以module.开头"
+      },
+      "required": {
+        "type": "boolean",
+        "description": "是否必填"
+      },
+      "file": {
+        "type": "string",
+        "pattern": "^[a-z-]+\\.json$",
+        "description": "数据文件名"
+      },
+      "type": {
+        "type": "string",
+        "enum": ["object", "array"],
+        "description": "数据类型"
+      }
+    }
+  }
+}

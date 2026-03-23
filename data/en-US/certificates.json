@@ -1,0 +1,18 @@
+[
+  {
+    "id": "cert-001",
+    "name": "AWS Certified Solutions Architect",
+    "issuer": "Amazon Web Services",
+    "issueDate": "2023-06",
+    "expiryDate": "",
+    "certificateUrl": "https://aws.amazon.com/certification/"
+  },
+  {
+    "id": "cert-002",
+    "name": "PMP Project Management Professional",
+    "issuer": "PMI",
+    "issueDate": "2022-03",
+    "expiryDate": "2025-03",
+    "certificateUrl": "https://www.pmi.org/"
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "edu-001",
+    "school": "University of Technology",
+    "degree": "Bachelor of Science in Computer Science",
+    "major": "Software Engineering",
+    "startDate": "2014-09",
+    "endDate": "2018-06",
+    "description": "Core courses: Data Structures, Algorithms, Databases, Computer Networks, Operating Systems, etc."
+  }
+]

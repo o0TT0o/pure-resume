@@ -1,0 +1,54 @@
+{
+  "id": "boss-zhipian",
+  "name": "boss-zhipian",
+  "description": "Clean and professional resume template inspired by BOSS Zhipin design style",
+  "category": "professional",
+  "features": [
+    "clean-layout",
+    "modern-design",
+    "responsive"
+  ],
+  "supports": {
+    "export-pdf": true,
+    "export-word": true,
+    "multi-language": true,
+    "ats-optimized": false
+  },
+  "sections": {
+    "personal": {
+      "position": "top",
+      "required": true
+    },
+    "experience": {
+      "position": "middle",
+      "required": true
+    },
+    "projects": {
+      "position": "middle",
+      "required": false
+    },
+    "education": {
+      "position": "bottom",
+      "required": false
+    },
+    "certificates": {
+      "position": "bottom",
+      "required": false
+    },
+    "skills": {
+      "position": "bottom",
+      "required": true
+    }
+  },
+  "style": {
+    "layout": "single-column",
+    "colors": {
+      "primary": "#2E54FF",
+      "secondary": "#666666"
+    },
+    "fonts": {
+      "heading": "sans-serif",
+      "body": "sans-serif"
+    }
+  }
+}

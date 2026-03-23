@@ -1,0 +1,30 @@
+[
+  {
+    "id": "proj-001",
+    "name": "Enterprise Management System",
+    "role": "Technical Lead",
+    "startDate": "2022-01",
+    "endDate": "2022-06",
+    "description": "Integrated management system for enterprise clients, including CRM, ERP, and project management modules.",
+    "technologies": ["Vue3", "TypeScript", "Element Plus", "Node.js"],
+    "achievements": [
+      "Completed system architecture design with multi-tenancy and permission management",
+      "Developed 20+ core components, forming an internal component library",
+      "Successfully launched the project with positive customer feedback"
+    ]
+  },
+  {
+    "id": "proj-002",
+    "name": "Mobile E-commerce Application",
+    "role": "Frontend Lead",
+    "startDate": "2021-03",
+    "endDate": "2021-09",
+    "description": "Cross-platform e-commerce application developed with React Native, supporting iOS and Android.",
+    "technologies": ["React Native", "Redux", "JavaScript"],
+    "achievements": [
+      "Completed core e-commerce features development",
+      "Optimized list scrolling performance, enhancing user experience",
+      "Achieved 4.8 rating in app stores"
+    ]
+  }
+]

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Builder</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Resume Builder</h1>
+      <div class="controls">
+        <select id="languageSelect" onchange="handleLanguageChange()">
+          <option value="" data-loading>Loading...</option>
+        </select>
+        <select id="templateSelect" onchange="handleTemplateChange()">
+          <option value="" data-loading>Loading...</option>
+        </select>
+        <span id="editModeIndicator" style="color: #ff4d4f; font-weight: 500; margin-right: 10px; display: none;"></span>
+        <button id="editModeBtn" class="btn-primary" onclick="toggleEditMode()">Enter Edit</button>
+        <button class="btn-secondary" onclick="showImportModal()" id="importBtn" style="display: none;"></button>
+        <button class="btn-secondary" onclick="showUploadModal()" id="uploadBtn" style="display: none;"></button>
+        <button class="btn-primary" onclick="exportPDF()" id="exportPdfBtn">Export PDF</button>
+        <button class="btn-secondary" onclick="exportWord()" id="exportWordBtn">Export Word</button>
+      </div>
+    </header>
+
+    <div class="main-content">
+      <div class="editor-panel" id="editorPanel" style="display: none;">
+        <div class="module-nav">
+          <button data-module="personal" onclick="switchModule('personal')">Personal</button>
+          <button data-module="experience" onclick="switchModule('experience')">Experience</button>
+          <button data-module="projects" onclick="switchModule('projects')">Projects</button>
+          <button data-module="education" onclick="switchModule('education')">Education</button>
+          <button data-module="certificates" onclick="switchModule('certificates')">Certificates</button>
+          <button data-module="skills" onclick="switchModule('skills')">Skills</button>
+        </div>
+
+        <div id="editorContent"></div>
+
+        <div class="editor-actions">
+          <button class="btn-secondary" id="resetBtn" onclick="resetCurrentModule()">Reset</button>
+          <button class="btn-success" id="saveModuleBtn" onclick="saveCurrentModule()">Save</button>
+        </div>
+      </div>
+
+      <!-- 预览区 - 直接加载渲染后的模板HTML -->
+      <div class="preview-panel">
+        <iframe id="previewFrame" class="preview-content" sandbox="allow-same-origin allow-scripts allow-same-origin allow-forms allow-modals"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

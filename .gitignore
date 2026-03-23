@@ -1,0 +1,11 @@
+node_modules/
+npm-debug.log
+.env
+*.log
+logs/*.log
+.DS_Store
+uploads/*
+!uploads/.gitkeep
+backup/*
+!backup/.gitkeep
+data/**/.versions.json

@@ -1,0 +1,112 @@
+{
+  "header": {
+    "title": "Resume",
+    "edit": "Edit",
+    "export": "Export",
+    "import": "Import",
+    "preview": "Preview",
+    "enterEditMode": "Enter Edit Mode",
+    "exitEditMode": "Exit Edit Mode",
+    "adminEditMode": "🔒 Admin Edit Mode",
+    "exportPDF": "Export PDF",
+    "exportWord": "Export Word",
+    "upload": "Upload"
+  },
+  "modal": {
+    "import": {
+      "title": "Import Resume",
+      "fromPDF": "Import from PDF",
+      "fromPDFDesc": "Support parsing PDF files to extract resume content",
+      "fromWord": "Import from Word",
+      "fromWordDesc": "Support parsing Word files to extract resume content",
+      "importing": "Importing file...",
+      "result": "Import Result",
+      "success": "✓ Import Successful",
+      "parseModules": "Parsed Modules",
+      "warning": "⚠️ Please check if the imported content is correct. Adjust manually if needed"
+    },
+    "upload": {
+      "title": "Upload Image",
+      "uploadAvatar": "Upload Avatar",
+      "uploadAvatarDesc": "Upload profile picture (supports JPEG, PNG, GIF, WebP)",
+      "uploadProject": "Upload Project Image",
+      "uploadProjectDesc": "Upload project showcase image (supports JPEG, PNG, GIF, WebP)",
+      "uploading": "Uploading image...",
+      "success": "Upload Successful",
+      "imageURL": "Image URL",
+      "copyURL": "Copy URL",
+      "urlCopied": "URL copied to clipboard"
+    },
+    "version": {
+      "title": "Version Comparison",
+      "noChanges": "No changes detected",
+      "confirm": "Confirm Save"
+    },
+    "unsavedChanges": {
+      "language": "You have unsaved changes. Switching language will lose these changes. Continue?",
+      "template": "You have unsaved changes. Switching template may require reloading the page. Continue?",
+      "exit": "You have unsaved changes. Exiting edit mode will lose these changes. Continue?"
+    },
+    "close": "✕"
+  },
+  "validation": {
+    "fileTooLarge": "File size cannot exceed 5MB",
+    "invalidFileType": "Only image files are supported (JPEG, PNG, GIF, WebP)",
+    "importFailed": "Import failed",
+    "uploadFailed": "Upload failed"
+  },
+  "export": {
+    "generatingPDF": "Generating PDF...",
+    "generatingWord": "Generating Word document...",
+    "failed": "Export failed"
+  },
+  "preview": {
+    "noData": "No data",
+    "clickToAdd": "Click button below to add",
+    "unnamed": "Unnamed"
+  },
+  "personal": {
+    "section": "Personal Information"
+  },
+  "experience": {
+    "section": "Work Experience",
+    "current": "Present",
+    "addExperience": "Add Experience"
+  },
+  "projects": {
+    "section": "Projects",
+    "addProject": "Add Project"
+  },
+  "education": {
+    "section": "Education",
+    "addEducation": "Add Education"
+  },
+  "certificates": {
+    "section": "Certificates",
+    "addCertificate": "Add Certificate"
+  },
+  "skills": {
+    "section": "Skills",
+    "technical": "Technical Skills",
+    "language": "Language Skills",
+    "soft": "Soft Skills",
+    "addSkill": "Add Skill",
+    "add": "Add"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "confirm": "Confirm",
+    "loading": "Loading...",
+    "success": "Success",
+    "error": "Error",
+    "upload": "Upload",
+    "download": "Download",
+    "reset": "Reset",
+    "confirmText": "Confirm",
+    "ok": "OK",
+    "item": "Item"
+  }
+}

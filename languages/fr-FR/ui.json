@@ -1,0 +1,112 @@
+{
+  "header": {
+    "title": "CV",
+    "edit": "Modifier",
+    "export": "Exporter",
+    "import": "Importer",
+    "preview": "Aperçu",
+    "enterEditMode": "Entrer en mode édition",
+    "exitEditMode": "Quitter le mode édition",
+    "adminEditMode": "🔒 Mode édition administrateur",
+    "exportPDF": "Exporter en PDF",
+    "exportWord": "Exporter en Word",
+    "upload": "Télécharger"
+  },
+  "modal": {
+    "import": {
+      "title": "Importer un CV",
+      "fromPDF": "Importer depuis PDF",
+      "fromPDFDesc": "Prend en charge l'analyse de fichiers PDF pour extraire le contenu du CV",
+      "fromWord": "Importer depuis Word",
+      "fromWordDesc": "Prend en charge l'analyse de fichiers Word pour extraire le contenu du CV",
+      "importing": "Importation du fichier...",
+      "result": "Résultat de l'importation",
+      "success": "✓ Importation réussie",
+      "parseModules": "Modules analysés",
+      "warning": "⚠️ Veuillez vérifier si le contenu importé est correct. Ajustez manuellement si nécessaire"
+    },
+    "upload": {
+      "title": "Télécharger une image",
+      "uploadAvatar": "Télécharger une photo de profil",
+      "uploadAvatarDesc": "Télécharger une photo de profil (prend en charge JPEG, PNG, GIF, WebP)",
+      "uploadProject": "Télécharger une image de projet",
+      "uploadProjectDesc": "Télécharger une image de présentation de projet (prend en charge JPEG, PNG, GIF, WebP)",
+      "uploading": "Téléchargement de l'image...",
+      "success": "Téléchargement réussi",
+      "imageURL": "URL de l'image",
+      "copyURL": "Copier l'URL",
+      "urlCopied": "URL copiée dans le presse-papiers"
+    },
+    "version": {
+      "title": "Comparaison des versions",
+      "noChanges": "Aucune modification détectée",
+      "confirm": "Confirmer l'enregistrement"
+    },
+    "unsavedChanges": {
+      "language": "Vous avez des modifications non enregistrées. Le changement de langue entraînera la perte de ces modifications. Continuer?",
+      "template": "Vous avez des modifications non enregistrées. Le changement de modèle peut nécessiter un rechargement de la page. Continuer?",
+      "exit": "Vous avez des modifications non enregistrées. La sortie du mode édition entraînera la perte de ces modifications. Continuer?"
+    },
+    "close": "✕"
+  },
+  "validation": {
+    "fileTooLarge": "La taille du fichier ne peut pas dépasser 5 Mo",
+    "invalidFileType": "Seuls les fichiers image sont pris en charge (JPEG, PNG, GIF, WebP)",
+    "importFailed": "L'importation a échoué",
+    "uploadFailed": "Le téléchargement a échoué"
+  },
+  "export": {
+    "generatingPDF": "Génération du PDF...",
+    "generatingWord": "Génération du document Word...",
+    "failed": "L'exportation a échoué"
+  },
+  "preview": {
+    "noData": "Aucune donnée",
+    "clickToAdd": "Cliquez sur le bouton ci-dessous pour ajouter",
+    "unnamed": "Sans nom"
+  },
+  "personal": {
+    "section": "Informations personnelles"
+  },
+  "experience": {
+    "section": "Expérience professionnelle",
+    "current": "Présent",
+    "addExperience": "Ajouter une expérience"
+  },
+  "projects": {
+    "section": "Projets",
+    "addProject": "Ajouter un projet"
+  },
+  "education": {
+    "section": "Formation",
+    "addEducation": "Ajouter une formation"
+  },
+  "certificates": {
+    "section": "Certificats",
+    "addCertificate": "Ajouter un certificat"
+  },
+  "skills": {
+    "section": "Compétences",
+    "technical": "Compétences techniques",
+    "language": "Langues",
+    "soft": "Compétences interpersonnelles",
+    "addSkill": "Ajouter une compétence",
+    "add": "Ajouter"
+  },
+  "common": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "confirm": "Confirmer",
+    "loading": "Chargement...",
+    "success": "Succès",
+    "error": "Erreur",
+    "upload": "Télécharger",
+    "download": "Télécharger",
+    "reset": "Réinitialiser",
+    "confirmText": "Confirmer",
+    "ok": "OK",
+    "item": "Élément"
+  }
+}

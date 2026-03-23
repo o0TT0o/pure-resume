@@ -1,0 +1,205 @@
+<div class="max-w-4xl mx-auto bg-white shadow-lg">
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-9 px-10">
+    <h1 class="text-3xl font-bold mb-2">{{personal.name}}</h1>
+    <p class="text-lg mb-3 text-blue-100">{{personal.title}}</p>
+    <div class="text-sm text-blue-100 flex gap-4 flex-wrap">
+      {{#if personal.email}}<span>✉️ {{personal.email}}</span>{{/if}}
+      {{#if personal.phone}}<span>📞 {{personal.phone}}</span>{{/if}}
+      {{#if personal.location}}<span>🌍 {{personal.location}}</span>{{/if}}
+    </div>
+  </header>
+
+  <!-- Content Grid -->
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 p-10">
+    <!-- Sidebar (Skills & Education) -->
+    <aside class="md:col-span-1 md:border-r-2 md:border-gray-100 md:pr-8">
+      {{#if skills}}
+      <section class="mb-8">
+        <h2 class="text-lg font-bold text-blue-600 mb-4 pb-2 border-b-2 border-purple-600 uppercase tracking-wider">
+          {{i18n.skills.section}}
+        </h2>
+
+        {{#if skills.technical}}
+        <div class="mb-5">
+          <h3 class="font-semibold text-purple-600 mb-3 text-sm">{{i18n.skills.technical}}</h3>
+          <div class="space-y-3">
+            {{#each skills.technical}}
+            <div class="flex items-center gap-3">
+              <span class="flex-1 text-sm">{{name}}</span>
+              <div class="flex gap-1">
+                {{#times level}}
+                <div class="w-2 h-2 rounded-full bg-purple-600"></div>
+                {{/times}}
+                {{#times (subtract 5 level)}}
+                <div class="w-2 h-2 rounded-full bg-gray-200"></div>
+                {{/times}}
+              </div>
+            </div>
+            {{/each}}
+          </div>
+        </div>
+        {{/if}}
+
+        {{#if skills.tools}}
+        <div class="mb-5">
+          <h3 class="font-semibold text-purple-600 mb-3 text-sm">Tools</h3>
+          <div class="space-y-3">
+            {{#each skills.tools}}
+            <div class="flex items-center gap-3">
+              <span class="flex-1 text-sm">{{name}}</span>
+              <div class="flex gap-1">
+                {{#times level}}
+                <div class="w-2 h-2 rounded-full bg-purple-600"></div>
+                {{/times}}
+                {{#times (subtract 5 level)}}
+                <div class="w-2 h-2 rounded-full bg-gray-200"></div>
+                {{/times}}
+              </div>
+            </div>
+            {{/each}}
+          </div>
+        </div>
+        {{/if}}
+
+        {{#if skills.language}}
+        <div class="mb-5">
+          <h3 class="font-semibold text-purple-600 mb-3 text-sm">{{i18n.skills.language}}</h3>
+          <div class="space-y-2">
+            {{#each skills.language}}
+            <div class="flex items-center justify-between text-sm">
+              <span>{{language}}</span>
+              <span class="text-gray-500">({{level}})</span>
+            </div>
+            {{/each}}
+          </div>
+        </div>
+        {{/if}}
+
+        {{#if skills.management}}
+        <div class="mb-5">
+          <h3 class="font-semibold text-purple-600 mb-3 text-sm">Management</h3>
+          <div class="space-y-3">
+            {{#each skills.management}}
+            <div class="flex items-center gap-3">
+              <span class="flex-1 text-sm">{{name}}</span>
+              <div class="flex gap-1">
+                {{#times level}}
+                <div class="w-2 h-2 rounded-full bg-purple-600"></div>
+                {{/times}}
+                {{#times (subtract 5 level)}}
+                <div class="w-2 h-2 rounded-full bg-gray-200"></div>
+                {{/times}}
+              </div>
+            </div>
+            {{/each}}
+          </div>
+        </div>
+        {{/if}}
+      </section>
+      {{/if}}
+
+      {{#if education}}
+      <section>
+        <h2 class="text-lg font-bold text-blue-600 mb-4 pb-2 border-b-2 border-purple-600 uppercase tracking-wider">
+          {{i18n.education.section}}
+        </h2>
+        <div class="space-y-5">
+          {{#each education}}
+          <div>
+            <h3 class="font-bold text-blue-600 text-sm mb-1">{{school}}</h3>
+            <p class="text-sm text-gray-600 mb-1">{{degree}}{{#if major}} · {{major}}{{/if}}</p>
+            <p class="text-xs text-purple-600">{{startDate}} - {{endDate}}</p>
+          </div>
+          {{/each}}
+        </div>
+      </section>
+      {{/if}}
+    </aside>
+
+    <!-- Main Content (Summary, Experience, Projects) -->
+    <main class="md:col-span-2 md:pl-8">
+      {{#if personal.summary}}
+      <section class="mb-8">
+        <h2 class="text-lg font-bold text-blue-600 mb-4 pb-2 border-b-2 border-purple-600 uppercase tracking-wider">
+          {{i18n.personal.section}}
+        </h2>
+        <p class="text-sm text-gray-700 leading-relaxed">{{personal.summary}}</p>
+      </section>
+      {{/if}}
+
+      {{#if experience}}
+      <section class="mb-8">
+        <h2 class="text-lg font-bold text-blue-600 mb-4 pb-2 border-b-2 border-purple-600 uppercase tracking-wider">
+          {{i18n.experience.section}}
+        </h2>
+        <div class="space-y-6">
+          {{#each experience}}
+          <div>
+            <div class="flex justify-between items-baseline mb-2">
+              <h3 class="font-bold text-blue-600 text-base">{{company}}</h3>
+              <span class="text-xs text-purple-600 font-medium">{{startDate}} - {{#if endDate}}{{endDate}}{{else}}{{i18n.experience.current}}{{/if}}</span>
+            </div>
+            <p class="text-sm text-gray-600 mb-2">{{position}}</p>
+            {{#if description}}<p class="text-sm text-gray-700 mb-2">{{description}}</p>{{/if}}
+            {{#if achievements}}
+            <ul class="list-disc list-inside text-sm text-gray-600 space-y-1">
+              {{#each achievements}}
+              <li>{{this}}</li>
+              {{/each}}
+            </ul>
+            {{/if}}
+          </div>
+          {{/each}}
+        </div>
+      </section>
+      {{/if}}
+
+      {{#if projects}}
+      <section class="mb-8">
+        <h2 class="text-lg font-bold text-blue-600 mb-4 pb-2 border-b-2 border-purple-600 uppercase tracking-wider">
+          {{i18n.projects.section}}
+        </h2>
+        <div class="space-y-6">
+          {{#each projects}}
+          <div>
+            <div class="flex justify-between items-baseline mb-2">
+              <h3 class="font-bold text-blue-600 text-base">{{name}}</h3>
+              <span class="text-xs text-purple-600 font-medium">{{startDate}} - {{#if endDate}}{{endDate}}{{else}}{{i18n.experience.current}}{{/if}}</span>
+            </div>
+            <p class="text-sm text-gray-600 mb-2">{{role}}</p>
+            {{#if description}}<p class="text-sm text-gray-700 mb-2">{{description}}</p>{{/if}}
+            {{#if achievements}}
+            <ul class="list-disc list-inside text-sm text-gray-600 space-y-1">
+              {{#each achievements}}
+              <li>{{this}}</li>
+              {{/each}}
+            </ul>
+            {{/if}}
+          </div>
+          {{/each}}
+        </div>
+      </section>
+      {{/if}}
+
+      {{#if certificates}}
+      <section>
+        <h2 class="text-lg font-bold text-blue-600 mb-4 pb-2 border-b-2 border-purple-600 uppercase tracking-wider">
+          {{i18n.certificates.section}}
+        </h2>
+        <div class="space-y-3">
+          {{#each certificates}}
+          <div class="flex justify-between items-start bg-blue-50 p-3 rounded-lg">
+            <div>
+              <h3 class="font-bold text-sm text-blue-800">{{name}}</h3>
+              <p class="text-xs text-blue-600">{{issuer}}</p>
+            </div>
+            <span class="text-xs text-gray-500">{{issueDate}}</span>
+          </div>
+          {{/each}}
+        </div>
+      </section>
+      {{/if}}
+    </main>
+  </div>
+</div>

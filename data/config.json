@@ -1,0 +1,23 @@
+{
+  "siteName": "Resume Builder",
+  "currentLanguage": "zh-CN",
+  "currentTemplate": "boss-zhipian",
+  "theme": {
+    "primaryColor": "#2E54FF",
+    "secondaryColor": "#666666"
+  },
+  "languageSettings": {
+    "autoDetect": true,
+    "defaultLanguage": "zh-CN",
+    "supportedLanguages": ["zh-CN", "en-US", "de-DE", "fr-FR", "ja-JP"]
+  },
+  "exportSettings": {
+    "pdf": {
+      "format": "A4",
+      "margin": "20mm"
+    },
+    "word": {
+      "template": "default"
+    }
+  }
+}

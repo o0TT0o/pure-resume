@@ -1,0 +1,30 @@
+[
+  {
+    "id": "exp-001",
+    "company": "TechCo Ltd.",
+    "position": "Senior Frontend Engineer",
+    "startDate": "2021-01",
+    "endDate": "",
+    "isCurrent": true,
+    "description": "Responsible for frontend architecture design and development of the company's core products, leading a 5-person team to complete multiple large-scale projects.",
+    "achievements": [
+      "Led the refactoring of the company's core product frontend architecture, improving performance by 40%",
+      "Established frontend engineering practices including CI/CD, coding standards, and automated testing",
+      "Mentored team members, successfully elevating overall technical capabilities"
+    ]
+  },
+  {
+    "id": "exp-002",
+    "company": "WebNet Inc.",
+    "position": "Frontend Engineer",
+    "startDate": "2018-06",
+    "endDate": "2020-12",
+    "isCurrent": false,
+    "description": "Responsible for development and maintenance of e-commerce platforms, participating in requirements analysis and technical solution design for multiple projects.",
+    "achievements": [
+      "Developed product detail page components with 90% reusability",
+      "Optimized page loading speed, reducing first-screen time by 30%",
+      "Built a component library, improving team development efficiency"
+    ]
+  }
+]

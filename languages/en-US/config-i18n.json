@@ -1,0 +1,89 @@
+{
+  "module": {
+    "personal": "Personal Information",
+    "experience": "Work Experience",
+    "projects": "Projects",
+    "education": "Education",
+    "certificates": "Certificates",
+    "skills": "Skills"
+  },
+  "skills": {
+    "technical": "Technical Skills",
+    "language": "Language Skills",
+    "tools": "Tools",
+    "management": "Management",
+    "soft": "Soft Skills"
+  },
+  "contact": {
+    "phone": {
+      "name": "Phone",
+      "placeholder": "+86 138-xxxx-xxxx"
+    },
+    "email": {
+      "name": "Email",
+      "placeholder": "example@mail.com"
+    },
+    "location": {
+      "name": "Location",
+      "placeholder": "Beijing"
+    },
+    "website": {
+      "name": "Website",
+      "placeholder": "https://yourwebsite.com"
+    },
+    "github": {
+      "name": "GitHub",
+      "placeholder": "https://github.com/username"
+    },
+    "linkedin": {
+      "name": "LinkedIn",
+      "placeholder": "https://linkedin.com/in/username"
+    }
+  },
+  "list": {
+    "experience": {
+      "name": "Work Experience",
+      "field": {
+        "company": "Company",
+        "position": "Position",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "description": "Description",
+        "achievements": "Achievements"
+      }
+    },
+    "projects": {
+      "name": "Projects",
+      "field": {
+        "name": "Project Name",
+        "role": "Role",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "description": "Description",
+        "technologies": "Technologies",
+        "achievements": "Achievements"
+      }
+    },
+    "education": {
+      "name": "Education",
+      "field": {
+        "school": "School",
+        "degree": "Degree",
+        "major": "Major",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "description": "Description"
+      }
+    },
+    "certificates": {
+      "name": "Certificates",
+      "field": {
+        "name": "Certificate Name",
+        "issuer": "Issuer",
+        "issueDate": "Issue Date",
+        "expiryDate": "Expiry Date",
+        "certificateUrl": "Certificate URL"
+      }
+    }
+  }
+}
